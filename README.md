@@ -32,6 +32,8 @@ final once you confirm.
 ![Example front section](examples/example_edition_1.png)
 ![Example closing sections and puzzle](examples/example_edition_2.png)
 
+*Sample edition; the stories and sources shown are illustrative.*
+
 ## Install
 
 1. Copy the contents of SKILL.md into a new Claude scheduled task, or if your

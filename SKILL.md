@@ -1,3 +1,8 @@
+---
+name: headlines-daily-paper
+description: Builds a personal daily newspaper covering the topics, city, and tone the user chose during setup, saves each edition to a folder on their own computer, and asks before treating an edition as final. Use when the user wants a personal news digest, a daily briefing, or their own newspaper, and whenever they ask to run, set up, adjust, or change anything about their Headlines edition.
+---
+
 # Headlines: Your Own Daily Personal Newspaper
 
 A Claude scheduled task that builds you a personal "newspaper" covering only the
