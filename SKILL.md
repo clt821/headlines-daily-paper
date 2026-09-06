@@ -272,6 +272,17 @@ fill each section comes entirely from that user's preferences.
   WeasyPrint. Confirm the PDF actually rendered, a reasonable size and page
   count, and that any puzzle or icons rendered as expected, before presenting
   it.
+* Verify the puzzle before it goes into the edition rather than trusting that
+  it came out right. For a sudoku, two things have to hold: every clue printed
+  on the grid matches the answer key the checker grades against, and the
+  puzzle has exactly one solution. Confirm both by solving the grid
+  programmatically, counting the solutions, and comparing each printed clue
+  against the key. A grid whose clues contradict the key has no valid
+  solution at all, and a grid with more than one solution will tell a reader
+  who solved it correctly that they are wrong. For a word search, every word
+  on the list has to actually appear in the grid, in the position the reveal
+  points to. If a puzzle fails any of these checks, build a new one and check
+  it again. Never ship a puzzle that has not passed.
 
 ## 9. End of run writes, mechanism, do every run regardless of the save decision
 
