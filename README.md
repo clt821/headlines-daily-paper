@@ -1,9 +1,13 @@
 # Headlines: A Daily Newspaper Claude Writes Just for You
 
-Every day, Claude puts together a quick scan of the top news that actually
-matters to you. It includes whatever topics you name (your industry, your
-hobbies, your city, etc.), plus a couple of small touches like a quote, a fun
-fact, and a quick game.
+Headlines is a Claude skill that runs as a scheduled task. You set it up
+once, and from then on Claude builds you a paper on its own, every day at
+the time you picked.
+
+Each edition is a quick scan of the top news that actually matters to you.
+It includes whatever topics you name (your industry, your hobbies, your
+city, etc.), plus a couple of small touches like a quote, a fun fact, and a
+quick game.
 
 You do not need to know how to code to set this up. You do need a Claude plan
 that supports scheduled tasks, recurring automated runs, with file access.
@@ -29,8 +33,9 @@ final once you confirm.
   so nothing repeats. Email delivery is not available yet. That may come in a
   later version.
 
-![Example front section](examples/example_edition_1.png)
-![Example closing sections and puzzle](examples/example_edition_2.png)
+![Scrolling through an edition](examples/edition-scroll.gif)
+
+![Solving the daily sudoku](examples/puzzle-solve.gif)
 
 *Sample edition; the stories and sources shown are illustrative.*
 
