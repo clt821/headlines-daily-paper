@@ -1,13 +1,51 @@
 # Headlines: A Daily Newspaper Claude Writes Just for You
 
-Headlines is a Claude skill that runs as a scheduled task. You set it up
-once, and from then on Claude builds you a paper on its own, every day at
-the time you picked.
+Headlines is a Claude skill that turns your interests into a personalized,
+daily newspaper, automatically.
 
-Each edition is a quick scan of the top news that actually matters to you.
-It includes whatever topics you name (your industry, your hobbies, your
-city, etc.), plus a couple of small touches like a quote, a fun fact, and a
-quick game.
+Each edition brings together the news and information you care about, and
+packages it all into a digital newspaper designed to be useful, personal,
+and fun.
+
+![Scrolling through an edition](examples/edition-scroll.gif)
+
+*Sample edition; the stories and sources shown are illustrative.*
+
+Your edition can include personalized news, local weather, daily context,
+recommendations, and interactive puzzles, with topics and sections that
+adapt to what you want to follow.
+
+![Solving the daily sudoku](examples/puzzle-solve.gif)
+
+*Sample edition; the stories and sources shown are illustrative.*
+
+## What it does
+
+Headlines can:
+
+* Find and summarize news based on your interests
+* Include local news, weather, and other daily context
+* Remember previously covered stories to reduce repetition
+* Generate an interactive Sudoku or Word Search
+* Create both HTML and PDF editions
+* Save each edition locally
+* Run automatically on a schedule
+* Adapt as your interests and preferences change
+
+Each newspaper is generated from your own configuration, so two people using
+Headlines won't get the same edition.
+
+## How it works
+
+Set up Headlines with the topics you want to follow, your location,
+preferred sections, and other preferences. Claude uses that information to
+research and assemble each edition.
+
+Once configured, Headlines can run as a scheduled task, giving you a new
+personalized newspaper without having to prompt Claude from scratch each
+day.
+
+## FYI
 
 You do not need to know how to code to set this up. You do need a Claude plan
 that supports scheduled tasks, recurring automated runs, with file access.
@@ -18,26 +56,8 @@ the days and time you chose. How long it runs depends entirely on how much you
 choose to include. It shows you a draft first and only treats an edition as
 final once you confirm.
 
-## What you get
-
-* A styled HTML page you can open in any browser, plus a matching PDF you can
-  print or send along to a friend.
-* Sections built around your selected topics: top news, your city's local
-  news and weather, whatever ongoing interests you name such as a sports
-  team, a market, or a hobby.
-* An optional daily puzzle (your choice of sudoku, word search, or a
-  rotation between the two).
-* Every edition is saved to a folder on your own computer that you choose
-  during setup. Saving locally is what lets Claude remember the paper's look
-  from one day to the next and keep track of which stories have already run
-  so nothing repeats. Email delivery is not available yet. That may come in a
-  later version.
-
-![Scrolling through an edition](examples/edition-scroll.gif)
-
-![Solving the daily sudoku](examples/puzzle-solve.gif)
-
-*Sample edition; the stories and sources shown are illustrative.*
+Editions are saved to a folder on your computer. Email delivery is not
+available yet, though it may come in a later version.
 
 ## Install
 
