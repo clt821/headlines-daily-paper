@@ -9,15 +9,11 @@ and fun.
 
 ![Scrolling through an edition](examples/edition-scroll.gif)
 
-*Sample edition; the stories and sources shown are illustrative.*
-
 Your edition can include personalized news, local weather, daily context,
 recommendations, and interactive puzzles, with topics and sections that
 adapt to what you want to follow.
 
 ![Solving the daily sudoku](examples/puzzle-solve.gif)
-
-*Sample edition; the stories and sources shown are illustrative.*
 
 ## What it does
 
